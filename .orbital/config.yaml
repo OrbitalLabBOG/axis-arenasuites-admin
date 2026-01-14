@@ -1,0 +1,26 @@
+# .orbital/config.yaml — Arena Suites Admin
+project:
+  name: Arena Suites / Flat119
+  id: dbb3ab0c-cbea-4cb4-b592-b712cc0f5711
+  vertical: axis
+  repo: OrbitalLabBOG/axis-arenasuites-admin
+
+deployment:
+  url: https://axis-arenasuites-admin.vercel.app/
+  platform: vercel
+  branch: main
+
+backend:
+  provider: supabase
+  project_ref: dlvzvztvqpagaiqkulhr
+  region: us-east-2
+
+status:
+  last_sync: "2026-01-14"
+  current_task: null
+  pending_deliveries: 0
+
+metadata:
+  created_at: "2026-01-14"
+  created_by: orbix
+  version: "1.0"
